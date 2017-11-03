@@ -94,14 +94,19 @@ form {
   width: 274px;
   margin: 20px 0 25px;
   overflow: auto;
+  z-index: 2;
 }
 
 .portfolio-object:nth-child(even) {
-  margin-right: 40px;
+  margin-right: 100px;
 }
 
-h2 {
-  position: absolute;
+.media {
+	float: left;
+}
+
+h5 {
+  position: relative;
   bottom: 10px;
   width: 274px;
   padding: 15px;
@@ -113,7 +118,7 @@ h2 {
   background: #4aaaa5;
   border-bottom: 0;
   top: 200px;
-  right: 237px;
+  z-index: 3;
 }
 
 /* Text */
@@ -142,7 +147,6 @@ h2 {
 	padding: 20px;
 	margin:0 auto;
 	position:relative;
-	z-index: 98;
 }
 
 /* Sidebar */
