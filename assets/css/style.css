@@ -6,6 +6,8 @@ body {
   background: url("../images/concrete_seamless.png");
 }
 
+/* Header */
+
 #brand {
   float: left;
   width: 250px;
@@ -51,6 +53,8 @@ body {
 	width: 100%;
 }
 
+/* ABout Body */
+
 #container {
 	width: 100%;
 }
@@ -69,12 +73,50 @@ body {
 	margin-left:30px;
 }
 
-.media {
+.media1 {
 	border-top: 2px solid #eee;
 }
 .media-left {
 	padding-right: 0px;
 }
+
+/* Contact Body */
+
+form {
+	width: 400%;
+}
+
+/* Portfolio Body */
+
+.portfolio-object {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.portfolio-object:nth-child(even) {
+  margin-right: 40px;
+}
+
+h2 {
+  position: absolute;
+  bottom: 10px;
+  width: 274px;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+  top: 200px;
+  right: 237px;
+}
+
+/* Text */
 
 h4,
 h3 {
@@ -93,6 +135,17 @@ h4 {
 	position: absolute;
 	top: 10px;	
 }
+
+h2 {
+	background: #4aaaa5;
+	color: #fff;
+	padding: 20px;
+	margin:0 auto;
+	position:relative;
+	z-index: 98;
+}
+
+/* Sidebar */
 
 .panel-title {
 	margin-top:20px;
@@ -124,11 +177,8 @@ h4 {
 .panel {
 	margin-right: 125px;
 }
-.portfolio-object {
-	width: 300px;
-	height:auto;
-	float: left;
-}
+
+/* Footer */
 
 .footer {
   width: 100%;
