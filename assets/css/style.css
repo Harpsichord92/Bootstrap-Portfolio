@@ -45,6 +45,7 @@ body {
   text-decoration: none;
   border-left: 1px solid #efefef;
   margin-top: 15px;
+  font-size: 16px;
 }
 
 .container-fluid {
@@ -53,7 +54,7 @@ body {
 	width: 100%;
 }
 
-/* ABout Body */
+/* About Body */
 
 #container {
 	width: 100%;
@@ -92,13 +93,15 @@ form {
   position: relative;
   float: left;
   width: 274px;
-  margin: 20px 0 25px;
+  margin: 20px;
   overflow: auto;
   z-index: 2;
+  margin-left: 40px;
+  margin-bottom: 0px;
 }
 
 .portfolio-object:nth-child(even) {
-  margin-right: 100px;
+  margin-right: 50px;
 }
 
 .media {
@@ -118,6 +121,7 @@ h5 {
   background: #4aaaa5;
   border-bottom: 0;
   top: 200px;
+  right: -40px;
   z-index: 3;
 }
 
@@ -194,4 +198,12 @@ h2 {
   text-align: center;
   background: #666;
   border-top: 8px solid #4aaaa5;
+}
+
+/* Media Queries */
+
+@media (max-width: 660px) {
+	#brand {
+		width: 100%;
+	}
 }
